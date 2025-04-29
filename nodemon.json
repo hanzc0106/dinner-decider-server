@@ -1,4 +1,6 @@
 {
-  "watch": ["src/**/*.ts", "src/controllers/**/*.ts"],
-  "ignore": ["node_modules"]
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["node_modules"],
+  "exec": "node -r tsconfig-paths/register -r ts-node/register src/app.ts"
 }
